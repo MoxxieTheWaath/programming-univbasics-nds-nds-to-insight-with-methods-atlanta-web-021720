@@ -10,6 +10,8 @@ while movieNum < director_data[:movies].length do
   totalGross += director_data[:movies][movieNum][:worldwide_gross]
   movieNum += 1
 end
+totalGross
+end
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
